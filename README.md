@@ -1,12 +1,6 @@
-<h1 align="center">🧪 experintellia</h1>
-
 <p align="center">
-  <b>An experimentation account — building things <i>with</i> AI to see how far AI-assisted development actually goes.</b>
-</p>
-
-<p align="center">
-  Every project here started as a question: <i>How far does agentic coding go?</i><br>
-  The repos below are the answers so far — mostly <a href="https://webxdc.org">webxdc</a> apps that run offline inside chats.
+  <b>How far can agentic coding go? These repos are my answers so far.</b><br>
+  <sub>Mostly <a href="https://webxdc.org">webxdc</a> apps that run offline inside chats.</sub>
 </p>
 
 ---
