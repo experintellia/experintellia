@@ -5,6 +5,19 @@
 
 ---
 
+## ⭐ Featured
+
+<table>
+<tr>
+<td width="110"><img src="https://raw.githubusercontent.com/experintellia/slothfulchat-web/main/packages/web-app/static/images/icon-256.png" width="96" alt="slothfulchat-web icon"></td>
+<td>
+<b><a href="https://github.com/experintellia/slothfulchat-web">slothfulchat-web</a></b><br>
+More than a web port — a <b>fork of Delta Chat</b> that runs a full client <b>standalone in the browser</b>: the chatmail core compiled to WebAssembly, driving the Delta Chat Desktop frontend as a PWA (over a local TCP proxy). It's also a base for features of its own, in the spirit of forks like <a href="https://arcanechat.me">ArcaneChat</a>. Experimental, AI-coded patch stack.<br>
+<sub>Rust → WASM · PWA · TypeScript</sub>
+</td>
+</tr>
+</table>
+
 ## 🔀 Ports
 
 Reviving existing apps as standalone, serverless webxdc apps.
@@ -73,14 +86,6 @@ A collaborative shopping list that auto-sorts items into store-aisle sections �
 <b><a href="https://github.com/experintellia/deltachat-changelogs">DeltaChat Changelogs</a></b><br>
 A fan-made changelog viewer for the DeltaChat ecosystem — pulls changelogs live from GitHub &amp; Codeberg, with per-client tabs, search, and scroll-spy TOC.<br>
 <sub>static site · vanilla JS</sub>
-</td>
-</tr>
-<tr>
-<td width="90"><img src="https://raw.githubusercontent.com/experintellia/slothfulchat-web/main/packages/web-app/static/images/icon-256.png" width="72" alt="slothfulchat-web icon"></td>
-<td>
-<b><a href="https://github.com/experintellia/slothfulchat-web">slothfulchat-web</a></b><br>
-A feasibility prototype running a full Delta Chat client <b>standalone in the browser</b> — the chatmail core compiled to WebAssembly, driving the Delta Chat Desktop frontend as a PWA (over a local TCP proxy). Experimental, AI-coded patch stack.<br>
-<sub>Rust → WASM · PWA · TypeScript</sub>
 </td>
 </tr>
 </table>
