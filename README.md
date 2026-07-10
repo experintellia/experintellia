@@ -76,7 +76,7 @@ A fan-made changelog viewer for the DeltaChat ecosystem — pulls changelogs liv
 </td>
 </tr>
 <tr>
-<td width="90" align="center">🧬</td>
+<td width="90"><img src="https://raw.githubusercontent.com/experintellia/slothfulchat-web/main/packages/web-app/static/images/icon-256.png" width="72" alt="slothfulchat-web icon"></td>
 <td>
 <b><a href="https://github.com/experintellia/slothfulchat-web">slothfulchat-web</a></b><br>
 A feasibility prototype running a full Delta Chat client <b>standalone in the browser</b> — the chatmail core compiled to WebAssembly, driving the Delta Chat Desktop frontend as a PWA (over a local TCP proxy). Experimental, AI-coded patch stack.<br>
