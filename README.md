@@ -1,103 +1,57 @@
 <p align="center">
   <b>How far can agentic coding go? These repos are my answers so far.</b><br>
-  <sub>Mostly <a href="https://webxdc.org">webxdc</a> apps that run offline inside chats.</sub>
+  <sub>Mostly <a href="https://webxdc.org">webxdc</a> apps that run offline inside chats, plus a Delta Chat fork that runs in the browser.</sub>
 </p>
 
----
+<p align="center">
+  <a href="https://experintellia.github.io/"><b>experintellia.github.io</b></a> · screenshots, details and links for everything below
+</p>
 
-## ⭐ Featured
+### Projects
 
 <table>
 <tr>
-<td width="110"><img src="https://raw.githubusercontent.com/experintellia/slothfulchat-web/main/packages/web-app/static/images/icon-256.png" width="96" alt="slothfulchat-web icon"></td>
-<td>
-<b><a href="https://github.com/experintellia/slothfulchat-web">slothfulchat-web</a></b><br>
-More than a web port — a <b>fork of Delta Chat</b> that runs a full client <b>standalone in the browser</b>: the chatmail core compiled to WebAssembly, driving the Delta Chat Desktop frontend as a PWA (over a local TCP proxy). It's also a base for features of its own, in the spirit of forks like <a href="https://arcanechat.me">ArcaneChat</a>. Experimental, AI-coded patch stack.<br>
-<sub>Rust → WASM · PWA · TypeScript</sub>
-</td>
+<td width="72"><img src="https://raw.githubusercontent.com/experintellia/slothfulchat-web/main/packages/web-app/static/images/icon-256.png" width="56" alt=""></td>
+<td><b><a href="https://github.com/experintellia/slothfulchat-web">slothfulchat-web</a></b> · <a href="https://web.slothful.chat">open web app</a><br>
+A Delta Chat fork that runs fully in the browser: chatmail core compiled to WebAssembly, driving the Delta Chat Desktop UI as an installable PWA.</td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/experintellia/data_dealer/master/icon.png" width="56" alt=""></td>
+<td><b><a href="https://github.com/experintellia/data_dealer">Data Dealer</a></b> · <a href="https://experintellia.github.io/data_dealer/">play in browser</a><br>
+The satirical privacy game, revived as a standalone webxdc app after its game server went offline.</td>
 </tr>
 </table>
 
-## 🔀 Ports
+### webxdc apps
 
-Reviving existing apps as standalone, serverless webxdc apps.
+Single `.xdc` files you send into a chat. The whole group uses them together, offline.
 
 <table>
 <tr>
-<td width="90"><img src="https://raw.githubusercontent.com/experintellia/data_dealer/master/icon.png" width="72" alt="Data Dealer icon"></td>
-<td>
-<b><a href="https://github.com/experintellia/data_dealer">Data Dealer</a></b><br>
-The satirical privacy game <i>Data Dealer</i> — you run a shady data-broker empire and learn, first-hand, how personal data gets harvested, traded, and abused. The original relied on a game server that's since been abandoned, so it's no longer playable; this port revives it as a fully standalone webxdc app — no server needed, playable again offline.<br>
-<sub>webxdc · TypeScript · Vite</sub>
-</td>
+<td width="72"><img src="https://raw.githubusercontent.com/experintellia/md-docs/main/public/icon.png" width="56" alt=""></td>
+<td><b><a href="https://github.com/experintellia/md-docs">MD-Docs</a></b><br>
+An Obsidian-style markdown editor the whole group edits live.</td>
 </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/experintellia/data_dealer">
-    <img src="assets/data-dealer.png" width="720" alt="Data Dealer screenshot">
-  </a>
-</p>
-
-## 📦 New webxdc apps
-
-Built from scratch — collaborative mini-apps you send into a chat, where the whole group edits together, offline-first.
-
-<table>
 <tr>
-<td width="90"><img src="https://raw.githubusercontent.com/experintellia/md-docs/main/public/icon.png" width="72" alt="MD-Docs icon"></td>
-<td>
-<b><a href="https://github.com/experintellia/md-docs">MD-Docs</a></b><br>
-A collaborative, Obsidian-style markdown editor — a single <code>.xdc</code> you drop into a group where everyone edits the same document live.<br>
-<sub>webxdc · CodeMirror 6 · Yjs · TypeScript</sub>
-</td>
+<td><img src="https://raw.githubusercontent.com/experintellia/ordered-shopping-list/main/public/icon.png" width="56" alt=""></td>
+<td><b><a href="https://github.com/experintellia/ordered-shopping-list">Grocery Board</a></b><br>
+A shared shopping list that sorts itself into store aisles.</td>
 </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/experintellia/md-docs">
-    <img src="https://raw.githubusercontent.com/experintellia/md-docs/main/assets/screenshot.png" width="720" alt="MD-Docs screenshot">
-  </a>
-</p>
-
-<table>
 <tr>
-<td width="90"><img src="https://raw.githubusercontent.com/experintellia/ordered-shopping-list/main/public/icon.png" width="72" alt="Grocery Board icon"></td>
-<td>
-<b><a href="https://github.com/experintellia/ordered-shopping-list">Grocery Board</a></b><br>
-A collaborative shopping list that auto-sorts items into store-aisle sections — view as a <b>List</b> or swipeable <b>Columns</b>. Inspired by Apple Reminders.<br>
-<sub>webxdc · TypeScript</sub>
-</td>
+<td><img src="https://raw.githubusercontent.com/experintellia/Halvsies/main/public/icon.png" width="56" alt=""></td>
+<td><b><a href="https://github.com/experintellia/Halvsies">Halvsies</a></b><br>
+Split a bill in the chat, then pay up with pre-filled payment links, IBAN details and QR codes.</td>
 </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/experintellia/ordered-shopping-list">
-    <img src="assets/grocery-board.png" width="720" alt="Grocery Board — Columns view">
-  </a>
-</p>
-
-## 🧰 Other projects
-
-<table>
 <tr>
-<td width="90" align="center">📜</td>
-<td>
-<b><a href="https://github.com/experintellia/deltachat-changelogs">DeltaChat Changelogs</a></b><br>
-A fan-made changelog viewer for the DeltaChat ecosystem — pulls changelogs live from GitHub &amp; Codeberg, with per-client tabs, search, and scroll-spy TOC.<br>
-<sub>static site · vanilla JS</sub>
-</td>
+<td align="center">♞</td>
+<td><b><a href="https://github.com/experintellia/chess-tournament.xdc">Chess Tournament</a></b> <sub>early prototype</sub><br>
+Many games at once in one chat, with spectating, variants and a Stockfish opponent.</td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/experintellia/deltachat-changelogs">
-    <img src="assets/changelogs.png" width="720" alt="DeltaChat Changelogs screenshot">
-  </a>
-</p>
+### Smaller things
 
----
-
-<p align="center">
-  <sub>Everything here is AI-built experimentation — a running log of what's possible when building with LLM-Coding agents. 🤖</sub>
-</p>
+- **[DeltaChat Changelogs](https://experintellia.github.io/deltachat-changelogs/)**: one place to read the changelogs of every Delta Chat client.
+- **[lyrics-component](https://experintellia.github.io/lyrics-component/)**: karaoke-style lyrics view and an editor to sync your own lyrics to a song.
+- **[basicwebrtc](https://github.com/experintellia/basicwebrtc)** <sub>WIP</sub>: self-hosted, peer-to-peer video calls, with room locking, a lobby and in-call chat.
+- **[chatmail-relays-mirror](https://github.com/experintellia/chatmail-relays-mirror)**: a daily [JSON mirror](https://raw.githubusercontent.com/experintellia/chatmail-relays-mirror/refs/heads/data/relays.json) of the public chatmail relay list, readable from the browser.
